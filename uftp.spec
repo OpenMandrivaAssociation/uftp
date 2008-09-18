@@ -1,6 +1,6 @@
 %define name uftp
-%define version 2.6.1
-%define release %mkrel 4
+%define version 2.6.3
+%define release %mkrel 1
 
 Summary: A multicast FTP
 Name: %{name}
@@ -41,7 +41,7 @@ process of The Wall Street Journal to send WSJ pages over satellite to their
 remote printing plants.
 
 %prep
-%setup -c
+%setup -q -c
 
 %build
 %make -f makefile.linux CFLAGS="%optflags"

@@ -1,6 +1,6 @@
 %define name uftp
 %define version 2.6.3
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: A multicast FTP
 Name: %{name}

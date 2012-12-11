@@ -72,3 +72,26 @@ rm -rf $RPM_BUILD_ROOT
 %_sbindir/uftpd
 %_mandir/man1/uftpd.1*
 %doc Changes.txt ReadMe.txt
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.6.3-2mdv2010.0
++ Revision: 434497
+- rebuild
+
+* Thu Sep 18 2008 Olivier Thauvin <nanardon@mandriva.org> 2.6.3-1mdv2009.0
++ Revision: 285637
+- 2.6.3
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.6.1-3mdv2009.0
++ Revision: 255050
+- rebuild
+
+* Thu Feb 21 2008 Olivier Thauvin <nanardon@mandriva.org> 2.6.1-1mdv2008.1
++ Revision: 173678
+- import uftp
+
+

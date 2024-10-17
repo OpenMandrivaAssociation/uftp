@@ -9,7 +9,7 @@ Release: %{release}
 Source0: %{name}.tar
 License: GPL
 Group: Networking/File transfer
-Url: http://www.tcnj.edu/~bush/uftp.html
+Url: https://www.tcnj.edu/~bush/uftp.html
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description

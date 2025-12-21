@@ -12,6 +12,7 @@ Group: Networking/File transfer
 Url: https://www.tcnj.edu/~bush/uftp.html
 BuildRoot: %{_tmppath}/%{name}-buildroot
 
+BuildRequires:	make
 %description
 UFTP is a multicast file transfer program, utilizing a protocol based on
 Starburst MFTP. It is designed to reliably and efficiently transfer files
